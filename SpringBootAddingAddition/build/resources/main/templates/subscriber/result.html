@@ -1,0 +1,62 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--  <title>Subscriber Sign-Up</title>-->
+<!--  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
+<!--</head>-->
+<!--<body>-->
+<!--<h3>Subscriber Sign-up Form</h3>-->
+<!--<p>Thank you for signing up!</p>-->
+<!--<h4>Subscriber:</h4>-->
+<!--<p th:text="${firstName}" />-->
+<!--<p th:text="${lastName}" />-->
+<!--<p th:text="${userName}" />-->
+
+
+
+<!--&lt;!&ndash;<button href="/index">Return<button>&ndash;&gt;-->
+<!--<button><a href="/">Return</a></button>-->
+
+
+
+
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Subscriber Sign-Up</title>
+
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="result.css">
+</head>
+<body>
+<div class="header">
+  Sign-Up Successful
+</div>
+<div class="subHeader">
+  <p>Thank you for signing up <span th:text="${firstName}"></span>!</p>
+</div>
+<div class="infoHeader">
+  Subscriber Info:
+</div>
+
+<div class="info">
+  <div class="row justify-content-center">
+    <div class="col-4 text-right label">Username:</div><div class="col-4 data" th:text="${userName}"></div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4 text-right label">First Name:</div><div class="col-4 data" th:text="${firstName}"></div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4 text-right label">Last Name:</div><div class="col-4 data" th:text="${lastName}"></div>
+  </div>
+</div>
+<a href="/">Go back to sign up page</a>
+
+</body>
+</html>

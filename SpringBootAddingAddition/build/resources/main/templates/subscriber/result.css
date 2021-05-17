@@ -1,0 +1,23 @@
+.header {
+    font-size: 56px;
+    text-align: center;
+
+}
+
+.subHeader {
+    font-size: 36px;
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.data {
+    font-size: 28px;
+}
+
+body {
+background-color: pink;
+}

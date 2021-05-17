@@ -1,0 +1,8 @@
+com/tts/SpringBootAddingAddition/SpringBootAddingAdditionApplication.java
+ com.tts.SpringBootAddingAddition.SpringBootAddingAdditionApplication
+com/tts/SpringBootAddingAddition/model/Subscriber.java
+ com.tts.SpringBootAddingAddition.model.Subscriber
+com/tts/SpringBootAddingAddition/repository/SubscriberRepository.java
+ com.tts.SpringBootAddingAddition.repository.SubscriberRepository
+com/tts/SpringBootAddingAddition/controller/SubscriberController.java
+ com.tts.SpringBootAddingAddition.controller.SubscriberController
